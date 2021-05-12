@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Namaste</string>
+    <string name="facebook_app_id">1630422133814660</string>
+    <string name="fb_login_protocol_scheme">fb1630422133814660</string>
+    <string name="morning_yoga">MORNING YOGA</string>
+    <string name="beginner_yoga">BEGINNER YOGA</string>
+    <string name="inner_peace">INNER PEACE</string>
+    <string name="yoga_for_back">YOGA FOR BACK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">home</string>
+    <string name="title_home" />
+    <string name="add">add</string>
+    <string name="notif">notif</string>
+    <string name="settings">settings</string>
+    <string name="notification" />
+    <string name="image">image</string>
+    <string name="newSanskritLabel" />
+    <string name="newPoseLabel" />
+    <string name="addPoseContent" />
+    <string name="addPoseButton" />
+    <string name="addPoseTitle" />
+    <string name="newChakraLabel" />
+    <string name="newDurationLabel" />
+    <string name="card_background">card background</string>
+
 </resources>
