@@ -15,10 +15,10 @@ This application for yoga has the purpose to help people become happier by incre
 The application contains beginner and intermediate elements of yoga and fitness which need to be performed at least 2-3 times a week, in order to have a better result.
 
 MoSCoW requiremnts:
-1)The user can register into the system.-MUST
-2)The user can log in into the system.-MUST
-3)The user can skip the register/log in step, in order to get into the system.- SHOULD
-4)The system allows the user to manage yoga programm,see progrese,re-enter the yoga programm.- SHOULD
+1)The user can register into the system.-MUST  
+2)The user can log in into the system.-MUST  
+3)The user can skip the register/log in step, in order to get into the system.- SHOULD  
+4)The system allows the user to manage yoga programm,see progrese,re-enter the yoga programm.- SHOULD 
 5)The user may receive notifications/reminder, about the yoga programm.-COULD
 6)The user can manage the settings.MUST
 7)The system will not be in Danish language or other languages except English. - WOULD
