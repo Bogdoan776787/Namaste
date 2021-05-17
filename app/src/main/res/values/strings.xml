@@ -23,5 +23,7 @@
     <string name="newChakraLabel" />
     <string name="newDurationLabel" />
     <string name="card_background">card background</string>
+    <string name="namaste">Namaste</string>
+    <string name="start">START</string>
 
 </resources>

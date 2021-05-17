@@ -23,6 +23,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.via.namaste.callback.OnFacebookLoginListener;
 
 import java.util.Arrays;
 import java.util.List;
@@ -32,25 +33,29 @@ public class SignInActivity extends AppCompatActivity {
     // Facebook
     private CallbackManager mCallbackManager;
     private LoginButton loginButton;
+    private SignInViewModel signInViewModel;
     private static final String TAG="FacebookAuthentication";
-    private FirebaseAuth mAuth;
-    private FirebaseUser user;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.start_page);
-        mAuth=FirebaseAuth.getInstance();
-user=FirebaseAuth.getInstance().getCurrentUser();
+        signInViewModel = new ViewModelProvider(this).get(SignInViewModel.class);
+        loginButton = findViewById(R.id.login_button);
 checkIfSignedIn();
         // Initialize Facebook Login button
-        mCallbackManager = CallbackManager.Factory.create();
-        loginButton = findViewById(R.id.login_button);
+        mCallbackManager=   signInViewModel.getFacebookCallbackManager();
+      registerFacebookCallback();
+
+    }
+
+    private void registerFacebookCallback() {
         loginButton.registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 Log.d(TAG, "facebook:onSuccess:" + loginResult);
-                handleFacebookAccessToken(loginResult.getAccessToken());
+               signInViewModel.handleFacebookAccessToken(loginResult.getAccessToken(),onFacebookLoginListener);
             }
 
             @Override
@@ -64,41 +69,21 @@ checkIfSignedIn();
             }
         });
     }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         mCallbackManager.onActivityResult(requestCode, resultCode, data);
-
-
-
     }
+
+
     private void checkIfSignedIn() {
-        if (user != null) {
+       FirebaseUser user= signInViewModel.getUser();
+        if ( user!= null) {
             goToHome(user);
         }
     }
-    private void handleFacebookAccessToken(AccessToken accessToken) {
 
-        AuthCredential credential = FacebookAuthProvider.getCredential(accessToken.getToken());
-        mAuth.signInWithCredential(credential)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
-                            Log.d("Facebook", "signInWithCredential:success");
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            goToHome(user);
-                        } else {
-                            // If sign in fails, display a message to the user.
-                            Log.w("Facebook", "signInWithCredential:failure", task.getException());
-                            Toast.makeText(SignInActivity.this, "Authentication failed.",
-                                    Toast.LENGTH_SHORT).show();
-                            goToHome(null);
-                        }
-                    }
-                });
-    }
 
 
     private void goToHome(FirebaseUser user) {
@@ -107,4 +92,16 @@ checkIfSignedIn();
             finish();
         }
     }
+
+    OnFacebookLoginListener onFacebookLoginListener=new OnFacebookLoginListener() {
+        @Override
+        public void OnFacebookLoginSuccessCallback(FirebaseUser user) {
+goToHome(user);
+        }
+
+        @Override
+        public void OnFacebookLoginFailedCallback(FirebaseUser user) {
+
+        }
+    };
 }
