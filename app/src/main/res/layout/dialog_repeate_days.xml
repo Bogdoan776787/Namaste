@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cb_sun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/sun"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/cb_mon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/mon"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/cb_tue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/tue"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/cb_wed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/wed"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/cb_thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/thu"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/cb_fri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/fri"
+        android:theme="@style/AppTheme" />
+
+    <CheckBox
+        android:id="@+id/cb_sat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:checked="true"
+        android:text="@string/sat"
+        android:theme="@style/AppTheme" />
+</LinearLayout>

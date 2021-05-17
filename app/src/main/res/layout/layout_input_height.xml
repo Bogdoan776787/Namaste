@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="7dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/edt_cm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/montserrat_regular"
+        android:hint="@string/cm"
+        android:importantForAutofill="no"
+        android:inputType="number|numberDecimal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/txt_light_color"
+        android:visibility="visible"
+        tools:ignore="UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/edt_feet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/montserrat_regular"
+        android:hint="@string/ft"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/txt_light_color"
+        tools:ignore="UnusedAttribute" />
+
+    <EditText
+        android:id="@+id/edt_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/montserrat_regular"
+        android:hint="@string/in"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/txt_light_color"
+        tools:ignore="UnusedAttribute" />
+</LinearLayout>

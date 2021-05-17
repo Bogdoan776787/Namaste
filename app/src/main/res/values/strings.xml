@@ -1,29 +1,162 @@
 <resources>
     <string name="app_name">Namaste</string>
-    <string name="facebook_app_id">1630422133814660</string>
-    <string name="fb_login_protocol_scheme">fb1630422133814660</string>
-    <string name="morning_yoga">MORNING YOGA</string>
-    <string name="beginner_yoga">BEGINNER YOGA</string>
-    <string name="inner_peace">INNER PEACE</string>
-    <string name="yoga_for_back">YOGA FOR BACK</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="home">home</string>
-    <string name="title_home" />
-    <string name="add">add</string>
-    <string name="notif">notif</string>
-    <string name="settings">settings</string>
-    <string name="notification" />
-    <string name="image">image</string>
-    <string name="newSanskritLabel" />
-    <string name="newPoseLabel" />
-    <string name="addPoseContent" />
-    <string name="addPoseButton" />
-    <string name="addPoseTitle" />
-    <string name="newChakraLabel" />
-    <string name="newDurationLabel" />
-    <string name="card_background">card background</string>
-    <string name="namaste">Namaste</string>
-    <string name="start">START</string>
+    <string name="home">Home</string>
+    <string name="progress">Progress</string>
+    <string name="day">Day</string>
+    <!--    <string name="_28_days_plan">28 Days Plan</string>-->
+    <string name="week">Week</string>
+    <string name="minute">Minute</string>
+    <string name="workouts">Workouts</string>
+    <string name="start">Start</string>
+
+    <string name="create_your_workout">You can create and edit your own workout by choosing from various exercises</string>
+    <string name="custom_workout">Custom Workout</string>
+    <string name="edit">Edit</string>
+    <string name="duration">Duration</string>
+    <string name="delete">Delete</string>
+    <string name="workout_title">Workout Title</string>
+    <string name="description">Description</string>
+    <string name="done">Done</string>
+    <string name="fill_data">Fill data</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="delete_workout">Are you sure to delete this workout?</string>
+    <string name="workout">Workout</string>
+
+    <string name="ADS_VISIBILITY">YES</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_native_advanced">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="reps">reps</string>
+    <string name="sec">Sec</string>
+    <string name="no_exercise">No exercise in your workout,please add some exercise</string>
+    <string name="txt_second">Second</string>
+    <string name="valid_time">Enter valid time</string>
+
+    <string name="txt_s">s</string>
+    <string name="txt_r">x</string>
+    <string name="txt_10">10</string>
+    <string name="level">Level</string>
+    <string name="steps">Steps</string>
+    <string name="select_exercise">Select Exercise</string>
+    <string name="exercise">Exercise</string>
+    <string name="default_start_up_timer">00:15</string>
+    <string name="ready">Ready to go!</string>
+    <string name="skip">SKIP</string>
+    <string name="exit">Exit</string>
+    <string name="skip_rest">Skip this rest</string>
+    <string name="take_rest">Take A Rest</string>
+    <string name="second" translatable="false">1</string>
+    <string name="add_sec">+ 10s</string>
+
+    <string name="next">Next</string>
+    <string name="rest">Rest</string>
+    <string name="readytogo">Ready to go start with</string>
+    <string name="check_icon">\u2713</string>
+
+    <string name="current_step">Current Step</string>
+    <string name="complete_workout">Great Work!</string>
+    <!--    <string name="complete_workout">Complete Workout</string>-->
+    <string name="finish_workout">You just completed this workout, try below options !</string>
+    <string name="finish">Finish</string>
+    <string name="repeat">Repeat</string>
+    <string name="exit_exercise_msg">Are you sure to stop the exercise?</string>
+    <string name="yes">Yes</string>
+    <string name="sound_opt">Sound options</string>
+    <string name="tts">PT Voice</string>
+    <string name="sound">Sound</string>
+    <string name="coach_tip">Coatch Tips</string>
+    <string name="perform">Perform</string>
+    <string name="congrats">Congratulations</string>
+    <string name="done_workout">you have done the workout!</string>
+    <string name="well_done">Nice you\'ve done it!</string>
+    <string name="default_exercise" translatable="false">0</string>
+    <string name="valid_height">Enter valid Height</string>
+    <string name="obese">Severely Obese</string>
+    <string name="overweight">Potentially Overweight</string>
+    <!--    <string name="overweight">Severely Overweight</string>-->
+    <string name="health_weight">Very Healthy Weight</string>
+    <!--    <string name="health_weight">Severely Healthy Weight</string>-->
+    <string name="under_weight">Potentially Underweight</string>
+    <string name="share_1">I just finished Daily Workout. It\'s challenging and awesome! Daily Workout every day equals to one-hour workout in gym. Try it yourself. Download the app here: </string>
+    <string name="share_to">Share to</string>
+    <string name="share">Share</string>
+    <string name="set_current_weight">Set Your Current Weight</string>
+    <string name="default_weight" translatable="false">50</string>
+    <string name="calc_bmi">Calculate BMI</string>
+    <string name="weight">Weight</string>
+    <string name="lb">LB</string>
+    <string name="kg">KG</string>
+    <string name="height">Height</string>
+    <string name="cm">CM</string>
+    <string name="ft">FT</string>
+    <string name="in">IN</string>
+    <string name="calc">Calculate</string>
+    <string name="current_bmi">Your Current BMI</string>
+    <string name="default_timer" translatable="false">00:01</string>
+    <string name="healthy_weight">Healthy weight</string>
+    <string name="default_date" translatable="false">21/1/18</string>
+    <string name="reminder">Reminder</string>
+    <string name="default_reminder_text" translatable="false">20:00</string>
+    <string name="calendar">Calendar</string>
+    <string name="not_done">Unfinished workout</string>
+    <string name="report">Report</string>
+    <string name="support">support us</string>
+    <string name="set_rest">Rest set</string>
+    <string name="rest_default_text">15 secs</string>
+    <string name="count_time">Countdown Time</string>
+    <string name="count_default_text">30 secs</string>
+    <string name="language">Language</string>
+    <string name="community">Community</string>
+    <string name="share_friends">Share with friends</string>
+    <string name="rate">Rate</string>
+    <string name="feedback">Feedback</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="privacy_url" translatable="false">https://anotepad.com/notes/998b9i55</string>
+
+
+    <string name="set_duration">Set duration</string>
+    <string name="set">Set</string>
+    <string name="mail_feedback_email" translatable="false">nguyencuonggostack@gmail.com</string>
+    <string name="no_email_available">There are no email clients installed.</string>
+    <string name="feedback_msg">Feedback for Yoga Coach</string>
+    <string name="exercises">Exercises</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="days">Days</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="reminder_msg">Workout Reminder</string>
+    <string name="general_setting">General Setting</string>
+    <string name="workout_reminder">Workout Reminder</string>
+
+    <string name="download_tts">Download TTS Engine</string>
+    <string name="voice_option">Voice Options (TTS)</string>
+    <string name="select_engine">Select TTS Engine</string>
+
+    <string name="device_tts_setting">Device TTS Setting</string>
+    <string name="guide_voice_engine">Please Choose Guide Voice Engine</string>
+    <string name="google_tts_engine">Google Text-to-speech Engine</string>
+    <string name="txt_continue">Continue</string>
+    <string name="todo">TODO</string>
+    <string name="seconds">Seconds</string>
+    <string name="get_started">Get Started</string>
+    <string name="tour_des_1">Manage your stress and sleep better with the help of the experts</string>
+    <string name="tour_title_1">Yoga Workout List</string>
+    <string name="tour_des_2">By exercising at home</string>
+    <string name="tour_title_2">GET YOUR IDEAL BODY</string>
+    <string name="tour_des_3">Lose weight and build muscle strength in a peaceful environment</string>
+    <string name="tour_title_3">Training Everyday</string>
+    <string name="minutes">Minutes</string>
+    <string name="bmi">BMI</string>
 
 </resources>

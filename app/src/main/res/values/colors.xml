@@ -1,13 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimary">#00796b</color>
-    <color name="colorPrimaryDark">#00695C</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#FFD37128</color>
+    <color name="colorPrimaryDark">#B45916</color>
+    <color name="colorAccent">#FF2C4B34</color>
+    <color name="white">#FFFFFF</color>
+    <color name="uncomplete_progress_color">#A3A2A2</color>
+    <color name="complete_progress_color">#000000</color>
+    <color name="txt_black">#333</color>
+    <color name="txt_black_light">#000000</color>
+
+    <color name="light_black">#3d3b3b</color>
+    <color name="light_black2">#D93D3B3B</color>
+    <color name="black">#000000</color>
+    <color name="txt_light_color">#FF2C4B34</color>
+    <color name="color1">#D64A59</color>
+    <color name="color2">#D64A59</color>
+    <color name="yellow">#D64A59</color>
+    <color name="tour_orange_light">#DCB5A3</color>
+    <color name="tour_orange">#FE7C42</color>
+    <color name="tour_blue">#1A5FA0</color>
+
+    <color name="color_light">#fff</color>
+
+    <style name="ToolbarTextAppearance">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+    </style>
+
+    <color name="color11">#6290c8</color>
+    <color name="color22">#376996</color>
+    <color name="color33">#1f487e</color>
+    <color name="color44">#1d3461</color>
+    <color name="incomplete">#DA4453</color>
+    <color name="bottom_bar">@color/colorPrimary</color>
+
+    <color name="red">#D64A59</color>
+    <color name="color_bg_white">#FFFFFF</color>
+
+
+    <color name="card_1">#008ACF</color>
+
+    <color name="card_2">#43aa8b</color>
+    <color name="card_3">#f9844a</color>
+    <color name="card_4">#4d908e</color>
+    <color name="card_5">#00B090</color>
+    <color name="card_6">#f9c74f</color>
+    <color name="text_black_color">#333333</color>
+    <color name="gray">#8A8383</color>
+    <color name="gray_2">#6c757d</color>
+
+    <color name="stage_1">#538d22</color>
+    <color name="stage_2">#f4d35e</color>
+    <color name="stage_3">#ed6a5a</color>
+    <color name="FFF4E3D9">#FFF4E3D9</color>
+    <color name="FFFA8A76">#FFFA8A76</color>
+    <color name="FF2C4B34">#FF2C4B34</color>
+    <color name="FFD37128">#FFD37128</color>
+    <color name="FFA9A766">#FFA9A766</color>
+
 </resources>

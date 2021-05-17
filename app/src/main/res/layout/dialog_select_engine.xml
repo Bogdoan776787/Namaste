@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="@string/guide_voice_engine"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/txt_black_light" />
+
+    <TextView
+        android:id="@+id/tv_tts_engine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:drawableStart="@drawable/ic_radio_button_unchecked_black_24dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/google_tts_engine"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</LinearLayout>
