@@ -19,7 +19,6 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.via.namaste.Receiver.AlarmReceiver;
 import com.via.namaste.Views.FabBottomNavigationView;
 
 import org.jetbrains.annotations.NotNull;
@@ -43,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         getIds = getIntent().getIntExtra(SEND_ID, R.id.navHome);
         init();
 
-        setNotificationsReminder();
         MyPagerAdapters myPagerAdapters = new MyPagerAdapters(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         pagerContainer.setAdapter(myPagerAdapters);
         pagerContainer.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -101,16 +99,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void setNotificationsReminder() {
-        Intent intent = new Intent(getApplicationContext(), AlarmReceiver.class);
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(getApplicationContext(), 1, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-        AlarmManager am = (AlarmManager) getSystemService(ALARM_SERVICE);
-        am.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(), 100, pendingIntent);
 
-        ComponentName componentName = new ComponentName(getApplicationContext(), AlarmReceiver.class);
-        PackageManager packageManager = getPackageManager();
-        packageManager.setComponentEnabledSetting(componentName, PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
-    }
 
 
     private void init() {

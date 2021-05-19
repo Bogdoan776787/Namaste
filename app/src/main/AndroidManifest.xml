@@ -43,32 +43,7 @@
         <!-- android:theme="@style/AppTheme.TransparentStatus"> -->
         <!-- </activity> -->
         <activity
-            android:name="com.via.namaste.ActivityCustomWorkout"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.via.namaste.ActivitySelectExercise"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.via.namaste.ActivitySelectedWorkoutCustom"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.via.namaste.ActivityCustomExerciseDetail"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name="com.via.namaste.ActivityResult"
-            android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.via.namaste.ReminderActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
