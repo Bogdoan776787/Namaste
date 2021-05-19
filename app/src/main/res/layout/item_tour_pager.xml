@@ -5,18 +5,6 @@
     android:layout_height="match_parent"
     android:background="@color/FFF4E3D9">
 
-    <ImageView
-        android:id="@+id/imgTour"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:contentDescription="@string/todo"
-        android:padding="25dp"
-        android:src="@drawable/preview_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvTourTitle"
@@ -25,7 +13,6 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/montserrat_bold"
         android:gravity="center"
-        app:layout_constraintVertical_bias="0.40"
         android:text="@string/app_name"
         android:textAllCaps="true"
         android:textColor="@color/FF2C4B34"
@@ -33,7 +20,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgTour" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.40" />
 
     <TextView
         android:id="@+id/tvTourDesc"

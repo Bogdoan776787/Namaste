@@ -8,7 +8,6 @@ import com.via.namaste.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapePathModel
-import com.minhhoang.yolo_yoga.Views.TopCurvedEdgeTreatment
 
 class FabBottomNavigationView @JvmOverloads constructor(
         context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0

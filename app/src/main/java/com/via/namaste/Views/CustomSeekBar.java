@@ -11,7 +11,6 @@ import android.util.AttributeSet;
 import android.widget.SeekBar;
 
 import com.via.namaste.R;
-import com.via.namaste.Views.ProgressItem;
 
 import java.util.ArrayList;
 

@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.minhhoang.yolo_yoga.Views.CustomSeekBar
+    <com.via.namaste.Views.CustomSeekBar
         android:id="@+id/seekBar_bmi"
         android:layout_width="match_parent"
         android:layout_height="60dp"

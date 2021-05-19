@@ -34,12 +34,5 @@
             android:textColor="@color/txt_black_light" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imgExercise"
-        android:layout_width="@dimen/adapter_img_size"
-        android:layout_height="@dimen/adapter_img_size"
-        android:contentDescription="@string/todo"
-        android:src="@mipmap/ic_launcher" />
-
 
 </LinearLayout>

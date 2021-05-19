@@ -98,7 +98,7 @@ public class Config {
 
     public static void sendToHomeExercise(Context context) {
         Intent intent = new Intent(context, MainActivity.class);
-       // intent.putExtra(SEND_ID, R.id.navHome);
+        intent.putExtra(SEND_ID, R.id.navHome);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }
@@ -120,7 +120,7 @@ public class Config {
         List<ModelTour> modelTours = new ArrayList<>();
 
         ModelTour tour = new ModelTour();
-       // tour.tourBgimg = R.drawable.splash_1;
+        tour.tourBgimg = R.drawable.splash_1;
         tour.tourBtnColor = context.getResources().getColor(R.color.colorAccent);
         tour.tourDesc = context.getResources().getString(R.string.tour_des_1);
         tour.tourTitle = context.getResources().getString(R.string.tour_title_1);
@@ -130,7 +130,7 @@ public class Config {
 
 
         tour = new ModelTour();
-       // tour.tourBgimg = R.drawable.splash_2;
+        tour.tourBgimg = R.drawable.splash_2;
         tour.tourBtnColor = context.getResources().getColor(R.color.colorAccent);
         tour.tourDesc = context.getResources().getString(R.string.tour_des_3);
         tour.tourTitle = context.getResources().getString(R.string.tour_title_3);
@@ -138,7 +138,7 @@ public class Config {
         modelTours.add(tour);
 
         tour = new ModelTour();
-      //  tour.tourBgimg = R.drawable.splash_1;
+        tour.tourBgimg = R.drawable.splash_1;
         tour.tourBtnColor = context.getResources().getColor(R.color.colorAccent);
         tour.tourDesc = context.getResources().getString(R.string.tour_des_2);
         tour.tourTitle = context.getResources().getString(R.string.tour_title_2);

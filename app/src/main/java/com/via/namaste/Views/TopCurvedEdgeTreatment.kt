@@ -1,4 +1,4 @@
-package com.minhhoang.yolo_yoga.Views
+package com.via.namaste.Views
 
 import com.google.android.material.shape.EdgeTreatment
 import com.google.android.material.shape.ShapePath

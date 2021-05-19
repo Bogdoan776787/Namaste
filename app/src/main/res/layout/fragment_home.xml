@@ -1,137 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="HomeFragment"
-    android:id="@+id/home2"
-    android:tag="fragment_home_tag">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/card_5"
+    android:orientation="vertical">
 
 
-<!-- TODO: Update blank fragment layout -->
-    <ImageView
-        android:id="@+id/morning_button"
-        android:layout_width="391dp"
-        android:layout_height="197dp"
-        android:contentDescription="@string/image"
-        android:scaleType="fitXY"
-        android:src="@drawable/rectangle_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="391dp"
-        android:layout_height="142dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/rectangle_3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toBottomOf="@+id/morning_button" />
-
-
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="391dp"
-        android:layout_height="142dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/rectangle_4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="391dp"
-        android:layout_height="142dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/rectangle_13"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/morning_yoga_text"
-        android:layout_width="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recMainCategory"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:fontFamily="@font/roboto_regular"
-        android:text="@string/morning_yoga"
-        android:textColor="#FFFFFF"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/morning_button"
-        app:layout_constraintEnd_toEndOf="@+id/morning_button"
-        app:layout_constraintStart_toStartOf="@+id/morning_button"
-        app:layout_constraintTop_toTopOf="@+id/morning_button"
-        app:layout_constraintVertical_bias="0.524" />
-
-    <TextView
-        android:id="@+id/beginner_yoga_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/beginner_yoga"
-        android:textColor="#FFFFFF"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
-        app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4" />
-
-    <TextView
-        android:id="@+id/inner_peace_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/inner_peace"
-        android:textColor="#FFFFFF"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-    <TextView
-        android:id="@+id/yoga_for_back_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/yoga_for_back"
-        android:textColor="#FFFFFF"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="@+id/imageView6"
-        app:layout_constraintStart_toStartOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-    <Button
-        android:id="@+id/morning_yoga_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Start"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/morning_yoga_text" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_margin="7dp"
+        tools:listitem="@layout/item_home" />
+</LinearLayout>
