@@ -42,13 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         getIds = getIntent().getIntExtra(SEND_ID, R.id.navHome);
         init();
-        fabCustomWorkout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ActivityCustomWorkout.class);
-                startActivity(intent);
-            }
-        });
+
         setNotificationsReminder();
         MyPagerAdapters myPagerAdapters = new MyPagerAdapters(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         pagerContainer.setAdapter(myPagerAdapters);
@@ -80,12 +74,7 @@ public class MainActivity extends AppCompatActivity {
             case 1:
                 bottomNav.getMenu().getItem(1).setChecked(true);
                 break;
-            case 2:
-                bottomNav.getMenu().getItem(3).setChecked(true);
-                break;
-            case 3:
-                bottomNav.getMenu().getItem(4).setChecked(true);
-                break;
+
         }
     }
 
@@ -99,8 +88,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             switch (position) {
-
-
                 case 1:
                     return new SettingFragment();
                 default:
@@ -128,7 +115,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
         pagerContainer = findViewById(R.id.pagerContainer);
-        fabCustomWorkout = findViewById(R.id.fabCustomWorkout);
         frameContainer = findViewById(R.id.frameContainer);
         bottomNav = findViewById(R.id.bottomNav);
     }
