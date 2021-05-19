@@ -63,12 +63,6 @@ public class Config {
         return integerList;
     }
 
-    static boolean isInternetAvailable(Context context) {
-        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(CONNECTIVITY_SERVICE);
-        assert connectivityManager != null;
-        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
-        return networkInfo != null && networkInfo.isConnected();
-    }
 
     public static boolean timeInSteps(String s) {
         return s.contains("x");

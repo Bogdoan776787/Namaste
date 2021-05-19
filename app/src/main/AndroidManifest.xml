@@ -37,7 +37,7 @@
 
 
 
-        <receiver android:name="com.via.namaste.Receiver.AlarmReceiver" /> <!-- <activity -->
+
         <!-- android:name="templatevillaevilla.yoga_workout.Main_activity" -->
         <!-- android:screenOrientation="portrait" -->
         <!-- android:theme="@style/AppTheme.TransparentStatus"> -->
