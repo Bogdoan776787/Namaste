@@ -29,20 +29,7 @@
     </RelativeLayout>
 
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabCustomWorkout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        android:layout_marginBottom="30dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:src="@drawable/ic_add_black_24dp"
-        app:backgroundTint="#FFD37128"
-        app:elevation="16dp"
-        app:layout_anchorGravity="fill_vertical|center_horizontal" />
+ 
 
     <com.via.namaste.Views.FabBottomNavigationView
         android:id="@+id/bottomNav"

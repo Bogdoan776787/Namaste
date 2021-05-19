@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
     String TAG = "my_MainActivity";
     FrameLayout frameContainer;
-    FloatingActionButton fabCustomWorkout;
     FabBottomNavigationView bottomNav;
     int getIds;
     ViewPager pagerContainer;
