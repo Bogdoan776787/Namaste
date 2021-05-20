@@ -30,7 +30,7 @@
                 android:thicknessRatio="20.0"
                 android:type="sweep">
                 <solid android:color="#ffffff" />
-                <!--<solid android:color="@color/white"/>-->
+
             </shape>
         </rotate>
     </item>

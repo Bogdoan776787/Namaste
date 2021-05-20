@@ -9,7 +9,7 @@
         android:id="@+id/view2"
         android:layout_width="0dp"
         android:layout_height="180dp"
-        android:background="@color/FFF4E3D9"
+        android:background="@color/card_5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -19,7 +19,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginLeft="16dp"
-        android:src="@drawable/ic_short_left"
+        android:src="@drawable/ic_arrow_back_black_24dp"
         app:layout_constraintBottom_toBottomOf="@+id/tvName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/tvName" />
@@ -32,7 +32,7 @@
         android:fontFamily="@font/montserrat_bold"
         android:text="Morning Yoga"
         android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
-        android:textColor="@color/FF2C4B34"
+        android:textColor="@color/FFF4E3D9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -51,8 +51,8 @@
 
     <ImageView
         android:id="@+id/imgBg"
-        android:layout_width="@dimen/img_size"
-        android:layout_height="@dimen/img_size"
+        android:layout_width="222dp"
+        android:layout_height="115dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
@@ -78,11 +78,11 @@
             android:id="@+id/tvTotalExercise"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_excercise_cell_1"
+            android:drawableStart="@drawable/ic_dumbell_white"
             android:drawablePadding="10dp"
             android:fontFamily="@font/montserrat_medium"
             android:text="@string/exercises"
-            android:textColor="@color/FF2C4B34"
+            android:textColor="@color/FFF4E3D9"
             android:textSize="18sp" />
 
         <TextView
@@ -90,11 +90,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:drawableStart="@drawable/ic_stopwatch_1"
+            android:drawableStart="@drawable/ic_access_time_white"
             android:drawablePadding="10dp"
             android:fontFamily="@font/montserrat_medium"
             android:text="@string/minute"
-            android:textColor="@color/FF2C4B34"
+            android:textColor="@color/FFF4E3D9"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -112,7 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="328dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/colorPrimary"
+        android:backgroundTint="@color/card_5"
         android:src="@drawable/ic_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/ic_home"
+        android:onClick="clickHome"
+        android:title="@string/home" />
+
+
+    <item
+        android:checkable="false"
+        android:enabled="false"
+        android:title="" />
+    
+    <item
+        android:id="@+id/navSetting"
+        android:icon="@drawable/ic_settings"
+        android:onClick="clickHome"
+        android:title="@string/action_settings" />
+</menu>

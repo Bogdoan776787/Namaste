@@ -2,6 +2,8 @@
 
     <string name="app_name">Namaste</string>
 
+    <string name="facebook_app_id">1630422133814660</string>
+    <string name="fb_login_protocol_scheme">fb1630422133814660</string>
 
     <string name="home">Home</string>
     <string name="progress">Progress</string>
@@ -125,7 +127,7 @@
 
     <string name="set_duration">Set duration</string>
     <string name="set">Set</string>
-    <string name="mail_feedback_email" translatable="false">nguyencuonggostack@gmail.com</string>
+    <string name="mail_feedback_email" translatable="false">776787novac@gmail.com</string>
     <string name="no_email_available">There are no email clients installed.</string>
     <string name="feedback_msg">Feedback for Yoga Coach</string>
     <string name="exercises">Exercises</string>
@@ -161,5 +163,7 @@
     <string name="tour_title_3">Training Everyday</string>
     <string name="minutes">Minutes</string>
     <string name="bmi">BMI</string>
+    <string name="namaste">Namaste</string>
+    <string name="sign_out">Sign Out</string>
 
 </resources>

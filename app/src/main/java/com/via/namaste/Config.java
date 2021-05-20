@@ -97,17 +97,6 @@ public class Config {
         context.startActivity(intent);
     }
 
-    static List<String> getReminderDaysList() {
-        List<String> stringList = new ArrayList<>();
-        stringList.add("Mon");
-        stringList.add("Tue");
-        stringList.add("Wed");
-        stringList.add("Thu");
-        stringList.add("Fri");
-        stringList.add("Sat");
-        stringList.add("Sun");
-        return stringList;
-    }
 
 
     public static List<ModelTour> getAllTourData(Context context) {
@@ -118,7 +107,7 @@ public class Config {
         tour.tourBtnColor = context.getResources().getColor(R.color.colorAccent);
         tour.tourDesc = context.getResources().getString(R.string.tour_des_1);
         tour.tourTitle = context.getResources().getString(R.string.tour_title_1);
-        tour.tourimg = R.drawable.preview_1;
+
 
         modelTours.add(tour);
 
@@ -128,7 +117,7 @@ public class Config {
         tour.tourBtnColor = context.getResources().getColor(R.color.colorAccent);
         tour.tourDesc = context.getResources().getString(R.string.tour_des_3);
         tour.tourTitle = context.getResources().getString(R.string.tour_title_3);
-        tour.tourimg = R.drawable.preview_2;
+
         modelTours.add(tour);
 
         tour = new ModelTour();
@@ -136,22 +125,14 @@ public class Config {
         tour.tourBtnColor = context.getResources().getColor(R.color.colorAccent);
         tour.tourDesc = context.getResources().getString(R.string.tour_des_2);
         tour.tourTitle = context.getResources().getString(R.string.tour_title_2);
-        tour.tourimg = R.drawable.preview_3;
+
         modelTours.add(tour);
 
 
         return modelTours;
     }
 
-    static void shareApp(Activity context) {
-        String url = "https://play.google.com/store/apps/details?id=" + context.getPackageName();
-        String type = "text/plain";
-        Intent share = new Intent(Intent.ACTION_SEND);
-        share.setType(type);
-        share.putExtra(Intent.EXTRA_TEXT, url);
-        share.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        context.startActivity(Intent.createChooser(share, context.getResources().getString(R.string.share_to)));
-    }
+
 
     public static int getPercent(int progress, int total_exercise) {
         return (100 * progress / total_exercise);

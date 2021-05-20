@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825739047113",
+    "project_id": "namaste-yoga-6ba8a",
+    "storage_bucket": "namaste-yoga-6ba8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825739047113:android:dbdf4c7e4a4a79a446dd18",
+        "android_client_info": {
+          "package_name": "com.via.namaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825739047113-jt0lmotejkagi84d7pou487tc89blnpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRt0g_EfLquUfz3VOyUP4AjK8BGIoxXq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825739047113-jt0lmotejkagi84d7pou487tc89blnpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
