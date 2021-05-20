@@ -15,15 +15,16 @@ This application for yoga has the purpose to help people become happier by incre
 The application contains beginner and intermediate elements of yoga and fitness which need to be performed at least 2-3 times a week, in order to have a better result.  
 
 MoSCoW requiremnts:  
-1)The user can register into the system.-MUST    
-2)The user can log in into the system.-MUST    
-3)The user can skip the register/log in step, in order to get into the system.- SHOULD    
-4
-5)The user may receive notifications/reminder, about the yoga programm.-COULD  
-6)The user can manage the settings.MUST  
- 
+1)The user can register into the system./Done-MUST    
+2)The user can log in into the system./Done-MUST       
+3)The user can choose specific session./Done MUST  
+4)The user can  participate to each session./Done MUST  
+5)The user can manage(set Rest time, Count down time) the settings./Done MUST 
+8)The user can sign out from the system./Done MUST  
+  
+6)The user can play/pause or skip each exercise from the specific session./Done SHOULD   
+7)The user can send feedback via email./Done SHOULD  
+8)The use can recieve the notifications./Not Implemented COULD  
 
-
-The prototype:  
-Here you can fin the link to the figma project:  
-https://www.figma.com/file/JlqksjsIFOGoSXjz4mQCTD/Untitled?node-id=48%3A23  
+Video presentation:
+https://youtu.be/6_honzj-4Iw
