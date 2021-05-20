@@ -18,10 +18,10 @@ MoSCoW requiremnts:
 1)The user can register into the system.-MUST    
 2)The user can log in into the system.-MUST    
 3)The user can skip the register/log in step, in order to get into the system.- SHOULD    
-4)The system allows the user to manage yoga programm,see progrese,re-enter the yoga programm.- SHOULD   
+4
 5)The user may receive notifications/reminder, about the yoga programm.-COULD  
 6)The user can manage the settings.MUST  
-7)The system will not be in Danish language or other languages except English. - WOULD  
+ 
 
 
 The prototype:  
