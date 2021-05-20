@@ -24,7 +24,17 @@ MoSCoW requiremnts:
   
 6)The user can play/pause or skip each exercise from the specific session./Done SHOULD   
 7)The user can send feedback via email./Done SHOULD  
-8)The use can recieve the notifications./Not Implemented COULD  
+8)The use can recieve the notifications./Not Implemented COULD   
 
-Video presentation:
-https://youtu.be/6_honzj-4Iw
+Video presentation:  
+https://youtu.be/6_honzj-4Iw  
+
+Code reference:  
+1)https://www.youtube.com/watch?v=4cq3OomJcH0   
+2)https://www.youtube.com/watch?v=dxeKPU0MBU8&t=381s&ab_channel=EDMTDevEDMTDev  
+3)https://www.youtube.com/watch?v=vPMUESIgxC0&t=234s&ab_channel=TechnicDudeTechnicDude  
+4)https://firebase.google.com/docs/auth/web/facebook-login  
+5)https://dev.to/raystatic/how-to-add-a-fab-within-bottomnavigationview-1dd4  
+
+
+
